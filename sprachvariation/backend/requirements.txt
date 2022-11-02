@@ -1,0 +1,8 @@
+-c constraints.txt
+-e src/sprachvariation[test]
+
+zope.testrunner
+
+# Add required add-ons
+# (Ideally add them in setup.py for sprachvariation)
+# collective.easyform

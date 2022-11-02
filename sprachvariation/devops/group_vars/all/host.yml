@@ -1,0 +1,3 @@
+---
+hostname: 'sprachvariation'
+fqdn: '{{ hostname }}.localhost'
