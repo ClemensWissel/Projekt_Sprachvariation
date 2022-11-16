@@ -21,7 +21,7 @@ import { getBaseUrl, hasApiExpander } from '@plone/volto/helpers';
 
 import homeSVG from '@plone/volto/icons/home.svg';
 
-import '/home/wissel/my_project/sprachvariation/frontend/src/customizations/components/theme/Breadcrumbs/SearchWidgetForm.css'
+import './SearchWidgetForm.css';
 
 const messages = defineMessages({
   home: {
