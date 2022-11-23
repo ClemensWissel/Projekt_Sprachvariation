@@ -16,6 +16,8 @@ import {
   SearchWidget, */
 } from '@plone/volto/components';
 
+import './Header.css';
+
 /**
  * Header component class.
  * @class Header
@@ -50,11 +52,11 @@ class Header extends Component {
     return (
       <Segment basic className="header-wrapper" role="banner">
         <Container>
-          <div className="header">
+          <div className="header">          
+            <div className="logoForm">
+              <Logo />            
+            </div>            
             <div className="logo-nav-wrapper">
-              <div className="logo">
-                <Logo />
-              </div>
               <Navigation pathname={this.props.pathname} />
             </div>
             <div className="tools-search-wrapper">
